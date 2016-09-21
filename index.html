@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- в фотошоп макет был поделен на левую, центральную, и правую часть котороя находиться внутри центральной, не знаю правильно ли так, но я подумал, что да.-->
+
+	<div class="wrapper">	<!-- общая обертка -->
+
+		<div class="container clearfix">
+
+			<section class="left">
+				<div class="logo">
+					<img src="img/Logo.png" alt="">
+				</div>
+
+				<aside>
+					<a href="#"><img src="img/Icon-1.png" alt=""></a>
+					<a href="#"><img src="img/Icon-2-(Hover).png" alt=""></a>
+					<a href="#"><img src="img/Icon-3.png" alt=""></a>
+					<a href="#"><img src="img/Icon-4.png" alt=""></a>
+					<a href="#"><img src="img/Icon-6.png" alt=""></a>
+					<a href="#"><img src="img/Icon-5.png" alt=""></a>
+				</aside>
+
+		</section><!-- левая сецкия -->
+
+		<section class="center clearfix"><!-- центральная секция -->
+			<header>
+				<form action="#">
+					<input type="search" placeholder="Search places">
+					<button type="submit"><img src="img/IconSearch.png" alt=""></button>
+				</form>
+			</header>
+
+			<div class="flesh"></div> <!-- flesh -->
+
+			<div class="content">	
+
+				
+				<div class="selection"><!-- ссылки над карточками -->
+				  <div class="links">
+					<h3 class="newest"><a href="#">Newest</a></h3>
+					<h3 class="popular"><a href="#">Popular</a></h3>
+				  </div><!-- links -->
+
+				  <div class="img-links">
+					<a href="#"><img src="img/IconVideo.png" alt=""></a>
+					<a href="#"><img src="img/IconImages.png" alt=""></a>
+				  </div> <!-- img-links -->
+
+				</div>  <!-- selection -->
+
+				<div class="flex-container"> <!-- фото-карточки -->
+				
+					<div class="item">		<!-- карточка1 -->
+						<div class="cart foto_cart1">
+							<div class="face">
+								<img src="img/face1.png" alt="">
+							</div>
+						</div>
+						<div class="personal_data">
+							<p class="name">Cory Peterson</p>
+							<address>Texas, USA</address>
+						</div>
+						<div class="like">255</div>
+					</div>  <!-- item -->
+
+					<div class="item">	<!-- карточка2 -->
+						<div class="cart foto_cart2">
+							<div class="face">
+								<img src="img/face2.png" alt="">
+							</div>
+						</div>
+						<div class="personal_data">
+							<p class="name">Jamie Yow</p>
+							<address>Sidney, Australia</address>
+						</div>
+						<div class="like">4.5k</div>
+					</div>  <!-- item -->
+
+					<div class="item">	<!-- карточка 3-->
+						<div class="cart foto_cart3">
+							<div class="face">
+								<img src="img/face3.png" alt="">
+							</div>
+						</div>
+						<div class="personal_data">
+							<p class="name">Keeran Smith</p>
+							<address>Istanbul, Turkey</address>
+						</div>
+						<span class="like">1.2k</span>
+					</div>  <!-- item -->
+
+					<div class="item">	<!-- карточка 4-->
+						<div class="cart foto_cart4">
+							<div class="face">
+								<img src="img/face4.png" alt="">
+							</div>
+						</div>
+						<div class="personal_data">
+							<p class="name">Dan Calvin</p>
+							<address>Michigan, USA</address>
+						</div>
+						<div class="like">4k</div>
+					</div>  <!-- item -->
+
+					<div class="item">	<!-- карточка 5 -->
+						<div class="cart foto_cart5">
+							<div class="face">
+								<img src="img/face5.png" alt="">
+							</div>
+						</div>
+						<div class="personal_data">
+							<p class="name">Jim Timberland</p>
+							<address>Delhi, India</address>
+						</div>
+						<div class="like">150</div>
+					</div>  <!-- item -->
+
+					<div class="item">	<!-- карточка6 -->
+						<div class="cart foto_cart6">
+							<div class="face">
+								<img src="img/face6.png" alt="">
+							</div>
+						</div>
+						<div class="personal_data">
+							<p class="name">Hoolie Morgan</p>
+							<address>Bali, Indonesia</address>
+						</div>
+						<div class="like">22k</div>
+					</div>  <!-- item -->
+
+				</div>  <!-- flex-container -->
+
+			</div> <!-- content -->
+		</section><!-- центральная секция -->
+
+	
+			<section class="right"><!-- правая секция -->
+				<div class="right_header">
+					<img src="img/humen_header.png" alt="">
+					<p>Antony Delmas <button type="submit"><img src="img/IconLogout.png" alt=""></button></p>
+					
+				</div> <!-- right_header -->
+
+				<div class="flesh_right clearfix">
+					<div class="time">
+						<img src="img/clock.png" alt="	">
+						<p>Best time to visit</p>
+						<span>March</span>
+					</div> <!-- time -->
+
+					<div class="price">
+						<img src="img/aircraft.png" alt="">
+						<p>20 flights from</p>
+						<span>350$</span>
+					</div> <!-- price -->
+					
+				</div>  <!-- flesh_right -->
+
+				<div class="recent_travellers">
+					<h2>Recent Travellers</h2>
+
+					<ul class="people">
+						<li><span>Jeremy Shaw</span></li>
+						<li><span>Kimberly Wales</span></li>
+						<li><span>Chi Chow</span></li>
+						<li><span>Karan Sharma</span></li>
+						<li><span>Keeri Pervose</span></li>
+						<li><span>Katy Gomes</span></li>
+						<li><span>Jeff Walton</span></li>
+					</ul>
+
+					<form action="#">
+						<input type="search" placeholder="Chat with" id="chat_with">
+						<button type="submit"><img src="img/IconSearch.png" alt=""></button>
+					</form>
+				</div> <!-- recent_travellers -->
+			</section><!-- правая секция -->
+
+
+	
+	</div>	<!-- container -->
+	</div> <!-- flex-container -->
+
+</div> <!-- wrapper -->
+
+
+</body>
+</html>
